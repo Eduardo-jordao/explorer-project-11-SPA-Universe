@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin: 40px 72px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+img {
+    width: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C4C4CC;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #fff;
+}

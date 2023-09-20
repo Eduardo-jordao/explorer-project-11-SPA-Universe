@@ -1,0 +1,58 @@
+body {
+    background-image: url(/assets/homebg.svg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 300px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+
+    color: #fff;
+}
+
+
+
+button {
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    text-transform: uppercase;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+
+    border-radius: 5px;
+    border: 2px solid #FFF;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 254, 254, 0.267);
+}
+
+
